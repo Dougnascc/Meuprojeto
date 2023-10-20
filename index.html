@@ -1,40 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-br"> <!-- idioma do meu site -->
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title> <!-- titulo - da minha pagina -->
+    <title>Portfólio | Douglas </title>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-</head><!-- Fim da HEAD do cabeçalho -->
-<body><!-- Começo do corpo do meu conteudo -->
-    <header class="imagem">
-        <img src="img/avatar.jpg" alt="foto do meu perfil"> <!--ALT = Texto alternativo -->
-    </header>
-    <div class="nome"> Douglas </div> <!-- Divisoria -->
-    <div class="redes-sociais">
-         <div class="icone"> <!-- Github --> 
-            <a href="" target="_blank">
-                    <i class="ph ph-github-logo"> </i> <!-- icone github -->
-                </a>
-                <span>
-                    <a href="" target="_blank"> Github </a>
-                </span>
-            </div> <!-- FIM github-->
+</head>
+<body>
+    <main>
+        <header class="imagem">
+            <img src="img/avatar.jpg" alt="Perfil">
+        </header>
+        <div class="nome">Douglas</div>
 
-            <div class="icone"> <!-- Instagram -->
-                <a href=""> <i class="ph ph-instagram-logo"></i> </a>
-                <span> <a href=""> Instagram </a> </span>
-            </div> <!-- Fim Instagram -->
+            <section class="redes-sociais">
+                <div class="icone">
+                    <a href="#" target="_blank"><i class="ph ph-github-logo"></i></a>
+                    <span><a href="#">GitHub</a></span>
+                </div>
+                <div class="icone">
+                    <a href="#" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+                    <span><a href="#">Instagram</a></span>
+                </div>
+                <div class="icone">
+                    <a href="#" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+                    <span><a href="">Facebook</a></span>
+                </div>
+                <div class="icone">
+                    <a href="" target="_blank"><i class="ph ph-twitch-logo"></i></a>
+                    <span><a href="#">Twitch</a></span>
+                </div>
+                <div id="email">
+                    <a href="mailto:gustavo.feriani@sp.senai.br">
+                    <i class="ph-bold ph-envelope-simple"></i></a>
+                </div>
+            </section> <!-- Fim DIV Redes Sociais  -->
 
-            <div class="icone"> <!-- Facebook -->
-                <a href=""> <i class="ph ph-facebook-logo"></i> </a>
-                
-
+            <div class="texto">
+                <h2 class="sobre-mim"> Sobre Mim </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatibus nobis nostrum deleniti vel quasi cupiditate nam! Modi blanditiis, accusamus eveniet nemo totam quasi beatae atque iure repellat, praesentium incidunt? rapazzzzz xaropinho uhahahahahhaahhahahhahhhaahahahahah rapazzzzzzzzzzzzzzzzzzzzz </p>
             </div>
 
-    </div>
+            <h2 class="substituto"> Linguagens de Programação </h2>
 
-    </div> <!-- FIM DAS REDES SOCIAIS-->
+            <section class="Linguagem">
+                <img src="img/front.jpeg" alt="Linguagens Front-End">
+
+                <img src="img/back.jpeg" alt="Linguagens Beck-End">
+            </section>
+
+            <section class="projetos">
+                <h2 class="subtitulo">Conheça os Meus Projetos</h2>
+
+                <div class="item" id="formulario"> Conteudo 01 </div>
+                <iframe width="500" height="250" class="movieform" id="movie"
+                src="https://www.youtube.com/embed/AMcHHimqucY" title="🟨Obedeça o Esquisitão ou Morra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <div class="item" id="site"> Conteudo 02 </div>
+                <iframe width="500" height="250" class="moviesite" id="movie"
+                src="https://www.youtube.com/embed/lmTyE8P3-iM" title="04   A linguagem COBOL   Básico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <div class="item" id="portfolio"> Conteudo 03 </div>
+                <iframe width="500" height="250" class="movieport" id="movie"
+                src="https://www.youtube.com/embed/G3fNUCbzEPU" title="Xaropinho nomeando as placas de trânsito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </section> <!-- FIM DA SEÇÃO PROJETOS -->
+
+            <footer>
+                <p> &copy; Direitos Reservados a Xaropinho Corp. | 2023 </p>
+            </footer>
+
+
+    </main>
+
+
+
 </body>
 </html>
