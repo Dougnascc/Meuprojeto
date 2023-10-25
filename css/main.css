@@ -77,3 +77,59 @@ body{
     width: 125px;
     background: #f0f0f0;
 }
+
+.texto{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 500px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    color: rgb(red, green, blue);
+    background: #204478;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(22, 22, 22, 0.4);
+
+
+    background: ;
+}
+.sobre-mim{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    color: rgb(239, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 35px;
+}
+.substitulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #204478;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.linguagem{
+    border-radius: ;
+    justify-content: center;
+}
+.linguagem, .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(53, 53, 53);
+    margin: 5px;
+}
