@@ -173,7 +173,7 @@ body{
     margin: auto;
     display: none;
 }
-.video:active{
+.video.active{
     display:block ;
 }
 footer p{
